@@ -707,7 +707,7 @@ export function group(
  *
  * ```typescript
  * sequence([
- *   style({ opacity: 0 })),
+ *   style({ opacity: 0 }),
  *   animate("1s", style({ opacity: 1 }))
  * ])
  * ```
@@ -1179,7 +1179,7 @@ export function useAnimation(
  * ### Usage Example
  *
  * The following example queries for inner elements and animates them
- * individually using `animate()`. 
+ * individually using `animate()`.
  *
  * ```typescript
  * @Component({
